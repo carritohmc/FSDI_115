@@ -1,0 +1,45 @@
+/* @font-face{
+font-family: regular;
+src: url()
+
+} */
+
+/* *{
+
+} */
+
+html{
+    font-size: 16px; 
+    /* only need to define for root element if it's not 16px */
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.img-container{
+display: flex;
+grid-template-columns: 1fr 1fr 1fr; 
+grid-gap: 1rem;
+width: 100%;
+}
+
+img{
+ 
+width: 100%;
+height: 200px;
+
+object-fit: cover;
+object-position: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 14px; 
+        /* only need to define for root element if it's not 16px */
+    }
+}
